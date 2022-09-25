@@ -8,10 +8,27 @@
 
 ## Project structure
 
+### Functional structure 需要实现的功能（之后再调整）
+```
+├── 保险公司系统：
+│       ├── 输入员工信息，
+│       ├── 人脸输入
+│       └── 查阅每次使用欺诈识别系统的信息
+├── 业务员系统：
+│       ├── 人脸识别，
+│       ├── 密码生成，
+│       └── 后台记录使用信息
+└──  欺诈识别系统：
+        ├── 密码检验
+        ├── 保险案件数据输入与处理，
+        └── 欺诈识别与结果输出，根据新增数据更新模型
+
+```
+
 ### File structure
 
 ```
-emotionalqueue
+fraud-prevention-system
 ├── __main__.py     # 模块主入口
 ├── lib             # native api library
 ├── queue.py        # 请求队列模型
