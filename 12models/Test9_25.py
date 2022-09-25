@@ -1,4 +1,3 @@
-# TODO 1.	原数据集缺失值情况，代码里面直接用第一个案件的对应值补上了-->优化，用随机值或者平均值
 
 import pandas as pd
 import sqlite3
