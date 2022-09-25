@@ -1,0 +1,4 @@
+data source:
+https://www.kaggle.com/datasets/buntyshah/auto-insurance-claims-data
+code source:
+https://www.kaggle.com/code/niteshyadav3103/insurance-fraud-detection-using-12-models/notebook
