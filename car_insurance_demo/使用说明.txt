@@ -1,0 +1,2 @@
+.py的运行需要调用文件夹内的.csv和.model两个文件，同时需要给.py文件中的input_data变量赋予案件数据（数据格式参照.csv文件的，顺序不能变）
+（备选方案：如果赋值给input_data麻烦的话，还可以把案件数据生成一个和insurance_claims.csv同格式的csv文件，需要的话联系我改代码）

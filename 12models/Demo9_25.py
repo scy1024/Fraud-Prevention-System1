@@ -23,12 +23,14 @@ class Entry():
     def login(self):
         global username
         username = v1.get()
+        print(username)
         user_pwd = v2.get()
+        print(user_pwd)
         if username in user_dic:
             if user_pwd == user_dic[username]:
                 tk.messagebox.showinfo(title='welcome', message='欢迎进入')
-                root_log.destroy()
-                self.custom()
+                # root_log.destroy()
+                # self.custom()
             else:
                 tk.messagebox.showerror(title='error', message='密码错误')
         elif username == '' or user_pwd == '':
@@ -105,23 +107,23 @@ class Entry():
             command=self.show_error)
         command_self.place(x=100, y=250)
         mainwindow.mainloop()
-
-    def custom(self):
-        '''
-
-        :return:
-        '''
-        mainwindow = tk.Tk()
-        mainwindow.title('主界面')
-        mainwindow.geometry('500x500')
-        ttk.Label(mainwindow, text='欢迎进入购物车系统').place(x=100, y=100)
-        command_mall = ttk.Button(mainwindow, text='商城', command=self.shop)
-        command_mall.place(x=100, y=150)
-        command_cart = ttk.Button(mainwindow, text='购物车', command=self.cart)
-        command_cart.place(x=100, y=200)
-        command_self = ttk.Button(mainwindow, text='个人中心', command=self.info)
-        command_self.place(x=100, y=250)
-        mainwindow.mainloop()
+    #
+    # def custom(self):
+    #     '''
+    #
+    #     :return:
+    #     '''
+    #     mainwindow = tk.Tk()
+    #     mainwindow.title('主界面')
+    #     mainwindow.geometry('500x500')
+    #     ttk.Label(mainwindow, text='欢迎进入购物车系统').place(x=100, y=100)
+    #     command_mall = ttk.Button(mainwindow, text='商城', command=self.shop)
+    #     command_mall.place(x=100, y=150)
+    #     command_cart = ttk.Button(mainwindow, text='购物车', command=self.cart)
+    #     command_cart.place(x=100, y=200)
+    #     command_self = ttk.Button(mainwindow, text='个人中心', command=self.info)
+    #     command_self.place(x=100, y=250)
+    #     mainwindow.mainloop()
 
     # def shop(self):
     #     shop = Shop(username, db, cursor)
@@ -318,6 +320,7 @@ if __name__ == '__main__':
     entry_username = ttk.Entry(root_log, textvariable=v1)
     entry_username.place(x=280, y=200)
     entry_password = ttk.Entry(root_log, textvariable=v2, show='*')
+
     entry_password.place(x=280, y=300)
     button_confirm = ttk.Button(root_log, text='保险业务员登陆', command=user.login)
     button_confirm.place(x=560, y=400)

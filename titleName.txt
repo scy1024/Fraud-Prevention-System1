@@ -1,0 +1,120 @@
+months_as_customer,“作为客户的月份”，
++++age,年龄
++++policy_number,保单号++++++
+policy_bind_date,保单绑定日期
+policy_state,政策的状态,
+policy_csl,政策csl
+policy_deductable,
++++policy_annual_premium,保单年保费，
+umbrella_limit,伞的限制,
+insured_zip,保险的邮政,
++++insured_sex,投保性别
+insured_education_level,受保教育水平
+insured_occupation,被保险职业
+insured_hobbies,被保险爱好
+insured_relationship,
+capital-gains,资本收益
+capital-loss,资本损失
+incident_date,事故日期++++++
+incident_type,事故类型++++++
+collision_type,碰撞类型++++++
+incident_severity,事故_严重性++++++
+authorities_contacted,当局联系++++++
+incident_state,事故_发生州++++++
+incident_city,事故_发生城市++++++
+incident_location,事故_位置++++++
+incident_hour_of_the_day,事故_时间点++++++
+number_of_vehicles_involved,涉及车辆数目++++++
+property_damage,财产损失++++++
+bodily_injuries,身体伤害++++++
+witnesses,目击者++++++
+police_report_available,警方报告，++++++
+total_claim_amount,索赔总额:
+injury_claim,伤害索赔,++++++
+property_claim,财产索赔,++++++
+vehicle_claim,车辆索赔,++++++
+auto_make,汽车品牌,++++++
+auto_model,汽车型号++++++
+auto_year,汽车年份，
+fraud_reported,欺诈报告,++++++
+_c39
+
+6132,MALE,MD,craft-repair,sleeping,husband,53300,0,2015/1/25,Single Vehicle Collision,
+Side Collision,Major Damage,Police,SC,Columbus,9935 4th Drive,5,1,YES,1,2,YES,71610,6510,
+13020,52080,Saab,92x,2004,Y,
+228,42,342868,2006/6/27,IN,250/500,2000,1197.22,50000
+
+
+456,FEMALE,PhD,tech-support,bungie-jumping,unmarried,0,0,2015/1/2,Multi-vehicle Collision,Rear Collision,Major Damage,Fire,SC,Arlington,8973 Washington St,19,3,NO,0,2,NO,64100,6410,6410,51280,Saab,95,2003,Y,
+137,34,413978,2000/6/4,IN,250/500,1000,1333.35,0,4417
+
+
+6132
+2015/1/25
+Single Vehicle Collision
+Side Collision
+Major Damage
+Police
+SC
+Columbus
+9935 4th Drive
+1
+YES
+1
+2
+YES
+6510
+13020
+52080
+Saab
+92x
+
+
+
+组名 pre时间  总时间
+2  2:11  6:54
+1  1:51  5:37
+10 2:08  7:13
+6  2:15  7:20
+9  2:14   6:40
+8   3:56(dem)   7:14
+3   02:11:00  6:46:38
+11  02:18:99  5:34:00
+12  2:15:14   07:43:64
+5   2:10:15   07:06:14
+4   2:01:02   5:37:00
+7   01:31:00  06:09:00
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2022.09.21 √
+ 
+ 2022.09.28 √
+ 
+ 2022.10.5 
+ 
+ 2022.10.12
+ 
+ 2022.10.19
+ 
+ 2022.10.25
+ 
+ 2022.10.30 
+ 
+ 2022.11.5
+ 
+ 2022.11.10
+ 
+ 2022.11.15
+ 
+ 2022.11.20
+ 
+ 2022.11.25
+ 
+ 2022.12.12 √
